@@ -30,7 +30,7 @@ programa
         // Empilhando elementos
         para (inteiro i = 0; i < 5; i++)
         {
-            empilhar(u.sorteia(1, 100))
+            push(u.sorteia(1, 100))
         }
 
         escreva("\nPilha após empilhar 5 elementos:\n")
@@ -38,14 +38,14 @@ programa
 
         // Desempilhando dois elementos
         escreva("\nDesempilhando dois elementos...\n")
-        desempilhar()
-        desempilhar()
+        pop()
+        pop()
 
-        escreva("\nPilha após desempilhar 2 elementos:\n")
+        escreva("\nPilha após pop 2 elementos:\n")
         mostrarPilha()
     }
 
-    funcao empilhar(inteiro valor)
+    funcao push(inteiro valor)
     {
         se (topo < 9)
         {
@@ -59,7 +59,7 @@ programa
         }
     }
 
-    funcao desempilhar()
+    funcao pop()
     {
         se (topo >= 0)
         {
