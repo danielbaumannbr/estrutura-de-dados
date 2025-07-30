@@ -2,10 +2,10 @@
  *  
  * Copyright (C) 2025 - SENAI SC 
  * 
- * Este arquivo de código fonte é livre para utilização, cópia e/ou modificação
+ * Este arquivo de código-fonte é livre para utilização, cópia e/ou modificação,
  * desde que este cabeçalho, contendo os direitos autorais e a descrição do programa, 
  * seja mantido.
-
+ * 
  * Descrição:
  * 
  * 	Este exemplo implementa uma estrutura de dados do tipo PILHA (stack),
@@ -18,9 +18,9 @@
  */
 
 programa
-
 {
-  inclua biblioteca Util-->u
+    inclua biblioteca Util --> u
+
     // Define a capacidade máxima da pilha
     inteiro pilha[10]
     inteiro topo = -1 // -1 indica que a pilha está vazia
@@ -41,7 +41,7 @@ programa
         pop()
         pop()
 
-        escreva("\nPilha após pop 2 elementos:\n")
+        escreva("\nPilha após remover 2 elementos:\n")
         mostrarPilha()
     }
 
